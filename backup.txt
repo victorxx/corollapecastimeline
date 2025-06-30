@@ -172,7 +172,7 @@
   </header>
 
   <!-- Propaganda central piscante -->
-  <div class="propaganda">🚗 PROMOÇÃO: PEÇAS COM ATÉ 50% OFF 🚗</div>
+  <div class="propaganda">🚗 <a href="#" target="_blank" id='novo'>CONFERIR A OPORTUNIDADE</a>🚗</div>
 
   <!-- Conteúdo principal -->
   <main>
@@ -337,6 +337,39 @@
   document.getElementById("close-btn").addEventListener("click", () => {
     document.getElementById("iframe-wrapper").style.display = "none";
   });
+</script>
+
+
+
+<script>
+    function mudar(){
+        const links=[
+      "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+      "https://geocredibnkvitoria.com/",
+      "https://vpserp.vercel.app/",
+      "https://creditopessoal.vercel.app/",
+      "https://brasilbrasileiross.blogspot.com/",
+      "https://stfly.biz/7MNLF",
+      "https://www.espiritosanto-es.com.br/linhadotempovitoria/",
+      "https://piadasrepositorio.vercel.app/",
+      "https://www.youtube.com/watch?v=gBclanEnn88",
+      "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+      "https://www.youtube.com/@gamenologia",
+      "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+      "https://bibliadonline.netlify.app/",
+      "https://www.larissasaib.com.br/",
+      "https://remarkable-gelato-4db597.netlify.app/consorciopagina.html",
+      "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g"
+
+        ];
+        function trocar(arr){
+            return Math.floor(Math.random()* arr.length);
+        }
+        const mudando=trocar(links);
+        const mudei=links[mudando];
+        document.getElementById('novo').href=mudei;
+    }
+    setInterval(mudar,300);
 </script>
  <!--PROPAGANDA -->
 </body>
